@@ -1,21 +1,22 @@
-console.log('Hello loop')
+// console.log('Hello loop')
 
-console.log('strating.....')
+// console.log('strating.....')
 
 // () = parantersis  =วงเล็บ
 // {} = bracket = ปีกกา
 // [] = square bracket = ก้ามปู
 
 //Ex.1
-// for( let i =2 ; i < 3 ; i+2){
-//     console.log(i);
-//     // console.log('>> Hello <<')
-//     // console.log('>>> codecamp <<<')
+// for( let i =0 ; i < 5 ; i++){
+//     console.log(`i=${i}`);
+
+//     console.log('>> Hello <<')
+//     console.log('>>> codecamp <<<')
 // }
 
-//Ex.2 FizzBuzz
+// Ex.2 FizzBuzz
 
-// for (let i = 0; i <= 20; i= i+1){
+// for (let i = 0; i <= 20; i++){
 //         if(i % 3 == 0 && i % 5 == 0){
 
 //             console.log("FizzBuzz");
@@ -59,7 +60,7 @@ console.log('strating.....')
 
 //Ex4 concat string
 
-// let str ="" 
+let str ="" 
 
 // for(let i = 1 ; i <=10; i++){
 
@@ -77,8 +78,8 @@ console.log('strating.....')
 let src = "codecamp"
 let res = ""
 
-//src.length ==>8
-//src[0] = c
+// src.length ==>8
+// src[0] = c
 
 // for(let i= 0; i<8; i++){
 //     console.log(i,src[i])
